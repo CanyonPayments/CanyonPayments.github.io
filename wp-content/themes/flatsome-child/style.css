@@ -325,8 +325,12 @@ Version: 3.0
     background-repeat: no-repeat;
 }
 
-.header-button .plain.is-outline:hover .icon-angle-right::before {
-    filter: brightness(0) invert(1);
+.header-button .icon-flickr::before {
+    filter: brightness(0);
+}
+
+.header-button .plain.is-outline:hover .icon-flickr::before {
+    filter: none;
 }
 
 .icon-flickr::before {
